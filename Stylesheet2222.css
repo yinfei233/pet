@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    background: #808080;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    color: grey;
+
+}
+
+section {
+    background: white;
+    color: grey;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+}
+
+div {
+    background: #fca4a4;
+    width:100px;
+    height: 20px;
+    padding:20px;
+    margin: auto;
+}
+
+.feature-box{
+    display: flex;
+}
+
+.feature-box div {
+    width: 100px;
+    margin: 1px;
+}
+
+.feature-box.sales div{
+    background: grey;
+    color: white;
+}
+
+.feature-box.closeouts div {
+    background: red;
+    color: white;
+}
+
+#frank {
+    font-size: 20px;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background: black;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ol li:first-child{
+    margin-left: 0px;
+}
+
+ol{
+    list-style: none;
+    padding: 0;
+}
+ol li{
+    display: inline-block;
+    background: gray;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 20px;
+}
